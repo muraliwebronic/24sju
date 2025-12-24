@@ -7,32 +7,29 @@
 /* --- Aeonik (TTF) --- */
 @font-face {
   font-family: "Aeonik";
-  src: url("./fonts/Aeonik-Regular.ttf") format("truetype");
+  src: url("/24sju/fonts/Aeonik-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Aeonik";
-  src: url("./fonts/Aeonik-Bold.ttf") format("truetype");
+  src: url("/24sju/fonts/Aeonik-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
-
-/* --- Editor's Note (OTF) --- */
-/* Only include font files that actually exist */
 @font-face {
   font-family: "Editor's Note";
-  src: url("./fonts/EditorsNote-Regular.otf") format("opentype");
+  src: url("/24sju/fonts/EditorsNote-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Editor's Note";
-  src: url("./fonts/EditorsNote-MediumItalic.otf") format("opentype");
+  src: url("/24sju/fonts/EditorsNote-MediumItalic.otf") format("opentype");
   font-weight: 500;
   font-style: italic;
 }
+
 
 /* =========================================
    2. VARIABLES & THEME
