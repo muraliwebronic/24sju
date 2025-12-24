@@ -16,7 +16,7 @@ const testimonials = [
   {
     id: 2,
     isFeatured: false,
-    image: "./assets/image000000-cropped.jpg",
+    image: "./assets/test.png",
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     signature: "Tomas",
     designation: "Store Manager",
@@ -24,7 +24,7 @@ const testimonials = [
   {
     id: 3,
     isFeatured: false,
-    image: "./assets/DSC02359.jpg",
+    image: "./assets/test.png",
     quote: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
     signature: "Cassandra",
     designation: "Partner",
@@ -32,7 +32,7 @@ const testimonials = [
   {
     id: 4,
     isFeatured: false,
-    image: "./assets/DSC02437.jpg",
+    image: "./assets/test.png",
     quote: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.",
     signature: "Sofia",
     designation: "Investor",
