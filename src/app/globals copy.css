@@ -8,13 +8,13 @@
 /* --- Aeonik (TTF) --- */
 @font-face {
   font-family: "Aeonik";
-  src: url("/public/fonts/Aeonik-Regular.ttf") format("truetype");
+  src: url("/fonts/Aeonik-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Aeonik";
-  src: url("/public/fonts/Aeonik-Bold.ttf") format("truetype");
+  src: url("/fonts/Aeonik-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
@@ -24,13 +24,13 @@
 /* Regular (400) */
 @font-face {
   font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-Regular.otf") format("opentype");
+  src: url("/fonts/EditorsNote-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-Italic.otf") format("opentype");
+  src: url("/fonts/EditorsNote-Italic.otf") format("opentype");
   font-weight: 400;
   font-style: italic;
 }
@@ -38,13 +38,13 @@
 /* Medium (500) */
 @font-face {
   font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-Medium.otf") format("opentype");
+  src: url("/fonts/EditorsNote-Medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-MediumItalic.otf") format("opentype");
+  src: url("/fonts/EditorsNote-MediumItalic.otf") format("opentype");
   font-weight: 500;
   font-style: italic;
 }
@@ -52,13 +52,13 @@
 /* Semibold (600) -> Also mapping this to 700 (Bold) since you lack the Bold file */
 @font-face {
   font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-Semibold.otf") format("opentype");
+  src: url("/fonts/EditorsNote-Semibold.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-Semibold.otf") format("opentype");
+  src: url("/fonts/EditorsNote-Semibold.otf") format("opentype");
   font-weight: 700; /* Fallback for Bold */
   font-style: normal;
 }
@@ -66,13 +66,13 @@
 /* Light (300) - Included since you have the file */
 @font-face {
   font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-Light.otf") format("opentype");
+  src: url("/fonts/EditorsNote-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-LightItalic.otf") format("opentype");
+  src: url("/fonts/EditorsNote-LightItalic.otf") format("opentype");
   font-weight: 300;
   font-style: italic;
 }
