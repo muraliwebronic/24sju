@@ -2,78 +2,35 @@
 
 /* =========================================
    1. FONT FACE DEFINITIONS
-   Matches your specific OTF and TTF files
    ========================================= */
 
 /* --- Aeonik (TTF) --- */
 @font-face {
   font-family: "Aeonik";
-  src: url("/public/fonts/Aeonik-Regular.ttf") format("truetype");
+  src: url("./fonts/Aeonik-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Aeonik";
-  src: url("/public/fonts/Aeonik-Bold.ttf") format("truetype");
+  src: url("./fonts/Aeonik-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 /* --- Editor's Note (OTF) --- */
-
-/* Regular (400) */
+/* Only include font files that actually exist */
 @font-face {
   font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-Regular.otf") format("opentype");
+  src: url("./fonts/EditorsNote-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
-@font-face {
-  font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-Italic.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic;
-}
 
-/* Medium (500) */
 @font-face {
   font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-Medium.otf") format("opentype");
+  src: url("./fonts/EditorsNote-MediumItalic.otf") format("opentype");
   font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-MediumItalic.otf") format("opentype");
-  font-weight: 500;
-  font-style: italic;
-}
-
-/* Semibold (600) -> Also mapping this to 700 (Bold) since you lack the Bold file */
-@font-face {
-  font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-Semibold.otf") format("opentype");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-Semibold.otf") format("opentype");
-  font-weight: 700; /* Fallback for Bold */
-  font-style: normal;
-}
-
-/* Light (300) - Included since you have the file */
-@font-face {
-  font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-Light.otf") format("opentype");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Editor's Note";
-  src: url("/public/fonts/EditorsNote-LightItalic.otf") format("opentype");
-  font-weight: 300;
   font-style: italic;
 }
 
@@ -85,13 +42,13 @@
   --foreground: #000000;
 
   --primary: #438931;
-  
+
   --cream: #F8F3EE;
   --cream-fade: #FEFBF9;
-  
+
   --beige-muted: #EEE1D5;
   --beige-deep: #ECE1D7;
-  
+
   --surface: #F2F2F7;
 }
 
@@ -112,7 +69,7 @@
 
   /* Animations */
   --animate-fade-up: fadeInUp 0.8s ease-out forwards;
-  
+
   --keyframes-fadeInUp: {
     0% {
       opacity: 0;
@@ -141,7 +98,7 @@ body {
    4. UTILITIES
    ========================================= */
 @layer utilities {
-  
+
   /* Large Hero Italic */
   .text-hero-main {
     font-family: var(--font-serif);
@@ -155,16 +112,15 @@ body {
   /* Green Highlight Text */
   .text-highlight-green {
     font-family: var(--font-serif);
-    font-weight: 600; /* Uses Semibold (since you don't have Bold Italic) */
-    font-style: normal; /* Warning: You don't have Semibold Italic file, so using Normal here */
+    font-weight: 500; /* Uses Medium Italic as fallback for semibold */
+    font-style: normal;
     font-size: 64px;
     color: var(--primary);
   }
-  
-  /* If you really need Italic for the green text, use Medium Italic (weight 500) instead */
+
   .text-highlight-green-italic {
     font-family: var(--font-serif);
-    font-weight: 500; 
+    font-weight: 500;
     font-style: italic;
     font-size: 64px;
     color: var(--primary);
