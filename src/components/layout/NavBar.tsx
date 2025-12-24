@@ -66,7 +66,7 @@ export default function NavBar() {
 
         <div className="flex items-center gap-2 z-50">
           <div className="relative w-10 h-10 bg-black rounded-full flex items-center justify-center overflow-hidden">
-            <img src="../assets/24sju 2000.png" alt="24sju" className="object-contain w-full h-full" />
+            <img src="./assets/24sju 2000.png" alt="24sju" className="object-contain w-full h-full" />
           </div>
           <span className="font-serif italic font-bold text-lg tracking-wide">
             24SJU <span className="font-sans not-italic font-normal text-sm ml-1 opacity-80">Snabbköp</span>

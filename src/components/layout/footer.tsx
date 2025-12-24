@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="flex items-center gap-5">
             {/* Logo Mockup to match design */}
                    <div className="relative w-15 h-15 bg-black rounded-full flex items-center justify-center overflow-hidden">
-                      <img src="../assets/24sju 2000.png" alt="24sju" />
+                      <img src="./assets/24sju 2000.png" alt="24sju" />
 
           </div>
 
