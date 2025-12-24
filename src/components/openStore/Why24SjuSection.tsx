@@ -7,7 +7,7 @@ const features = [
   {
     id: 1,
     // Icon: Truck with leaf (Image 17)
-    icon: "/assets/Image 17.png", 
+    icon: "./assets/Image 17.png", 
     titleRegular: "Better for the",
     titleItalic: "Environment",
     description: "We have a far-reaching environmental approach with stores that make a minimal impact on the environment with the goal of our stores being self-sufficient."
@@ -15,7 +15,7 @@ const features = [
   {
     id: 2,
     // Icon: 24 circle (Image 15)
-    icon: "/assets/Image 15.png",
+    icon: "./assets/Image 15.png",
     titleRegular: "Open",
     titleItalic: "24/7",
     description: "Our stores are always there for you, all day, all night, every day. All year round. Shop when it suits you and when the need arises."
@@ -23,7 +23,7 @@ const features = [
   {
     id: 3,
     // Icon: Quality Badge (Image 13)
-    icon: "/assets/Image 13.png", 
+    icon: "./assets/Image 13.png", 
     titleRegular: "Higher",
     titleItalic: "Quality",
     description: "Our stores increase the quality of living and the level of service in smaller towns, which contributes to vibrant communities."
@@ -31,7 +31,7 @@ const features = [
   {
     id: 4,
     // Icon: Person with shield (Image 25)
-    icon: "/assets/Image 25.png",
+    icon: "./assets/Image 25.png",
     titleRegular: "Safe &",
     titleItalic: "Secure",
     description: "The store is easily opened by scanning a QR code via the BankID app on your mobile phone and the store is monitored by cameras."
@@ -39,7 +39,7 @@ const features = [
   {
     id: 5,
     // Icon: Greenhouse (Image 27)
-    icon: "/assets/Image 27.png",
+    icon: "./assets/Image 27.png",
     titleRegular: "Lokala",
     titleItalic: "fördelar",
     description: "Vi strävar efter att gynna lokala aktörer och vårt mål är att erbjuda t.ex. bröd från lokala bagerier och råvaror från lokala gårdar."
@@ -47,7 +47,7 @@ const features = [
   {
     id: 6,
     // Icon: Price Tag (Image 29)
-    icon: "/assets/Image 29.png",
+    icon: "./assets/Image 29.png",
     titleRegular: "Lower",
     titleItalic: "Price",
     description: "Thanks to good purchase prices and the market's lowest operating costs, we can offer really good prices."

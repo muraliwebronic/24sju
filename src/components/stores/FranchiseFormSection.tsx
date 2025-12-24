@@ -158,7 +158,7 @@ export default function FranchiseFormSection() {
              ========================= */}
           <div className="relative w-full h-full min-h-[500px] lg:min-h-0 rounded-[2.5rem] overflow-hidden shadow-2xl group animate-[fadeInUp_1s_ease-out_forwards]">
             <Image
-              src="/assets/Store Images/Saxnäs 21-8/IMG_1161.JPG" // Using previous store image
+              src="./assets/Store Images/Saxnäs 21-8/IMG_1161.JPG" // Using previous store image
               alt="24SJU Store"
               fill
               className="object-cover transition-transform duration-1000 group-hover:scale-105"

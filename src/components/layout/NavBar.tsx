@@ -66,7 +66,7 @@ export default function NavBar() {
 
         <div className="flex items-center gap-2 z-50">
           <div className="relative w-10 h-10 bg-black rounded-full flex items-center justify-center overflow-hidden">
-            <img src="./assets/24sju 2000.png" alt="24sju" className="object-contain w-full h-full" />
+            <img src="../assets/24sju 2000.png" alt="24sju" className="object-contain w-full h-full" />
           </div>
           <span className="font-serif italic font-bold text-lg tracking-wide">
             24SJU <span className="font-sans not-italic font-normal text-sm ml-1 opacity-80">Snabbköp</span>
@@ -128,7 +128,7 @@ export default function NavBar() {
           
               <div className="relative w-full h-[55%] rounded-[2rem] overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-500 group">
                 <Image
-                  src="/assets/Store Images/Furulund 22-5/Furulund/P1130074.JPG"
+                  src="./assets/Store Images/Furulund 22-5/Furulund/P1130074.JPG"
                   alt="24SJU Store"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -138,7 +138,7 @@ export default function NavBar() {
               <div className="grid grid-cols-2 gap-4 h-[45%]">
                 <div className="relative w-full h-full rounded-[2rem] overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-500 group">
                   <Image
-                    src="/assets/Store Images/store images/SVINNINGE-1024x997.jpeg"
+                    src="./assets/Store Images/store images/SVINNINGE-1024x997.jpeg"
                     alt="Store owners"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -146,7 +146,7 @@ export default function NavBar() {
                 </div>
                 <div className="relative w-full h-full rounded-[2rem] overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-500 group">
                   <Image
-                    src="/assets/Store Images/store images/UCKLUM.jpg"
+                    src="./assets/Store Images/store images/UCKLUM.jpg"
                     alt="Store interior"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-105"

@@ -20,8 +20,8 @@ export default function Hero() {
             playsInline 
             className="absolute top-0 left-0 w-full h-full object-cover z-0 pointer-events-none"
           >
-            <source src="/assets/first video - header.mov" type="video/mp4" />
-            <source src="/assets/first video - header.mov" type="video/quicktime" />
+            <source src="./assets/first video - header.mov" type="video/mp4" />
+            <source src="./assets/first video - header.mov" type="video/quicktime" />
           </video>
 
           {/* Dark Overlay (to ensure text readability like the image) */}

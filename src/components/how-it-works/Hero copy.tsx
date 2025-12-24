@@ -130,9 +130,9 @@ function ContactSection() {
              ========================= */}
           <div className="lg:col-span-2 h-[500px] lg:h-full lg:min-h-[700px] relative rounded-[2.5rem] overflow-hidden shadow-xl animate-[fadeInUp_1s_ease-out_forwards] group">
             {/* Background Image */}
-            {/* Replace '/assets/contact-image.jpg' with the actual path to the image seen in image_12.png */}
+            {/* Replace './assets/contact-image.jpg' with the actual path to the image seen in image_12.png */}
             <Image
-              src="/assets/contact-image.jpg" 
+              src="./assets/contact-image.jpg" 
               alt="24SJU Storefront"
               fill
               className="object-cover transition-transform duration-1000 group-hover:scale-105"
