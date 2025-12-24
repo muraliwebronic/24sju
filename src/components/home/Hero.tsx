@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../layout/NavBar';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -51,16 +52,16 @@ export default function Hero() {
             </p>
 
             {/* Call to Action Button */}
-            <button className="group mt-10 bg-primary hover:bg-[#3a782b] transition-all duration-300 text-white rounded-full pl-8 pr-2 py-2 flex items-center gap-4 cursor-pointer">
+            <Link href={"/oppna-butik"} className="group mt-10 bg-primary hover:bg-[#3a782b] transition-all duration-300 text-white rounded-full pl-8 pr-2 py-2 flex items-center gap-4 cursor-pointer">
               <span className="font-serif italic font-medium text-lg md:text-xl pt-1">
-                Open Store
+                Öppna butik
               </span>
               <div className="bg-white/20 group-hover:bg-white/30 w-10 h-10 rounded-full flex items-center justify-center transition-colors">
                 <svg width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M1 7H17M17 7L11 1M17 7L11 13" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-            </button>
+            </Link>
 
           </div>
         </div>
