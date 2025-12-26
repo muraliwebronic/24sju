@@ -21,7 +21,7 @@ const teamMembers: TeamMember[] = [
     role: "Designation",
     email: "user@gmail.com",
     phone: "+47 123 456 7890",
-    image: "./assets/team1.jpeg",
+    image: "/assets/team1.jpeg",
     inNeedHelp: false,
   },
   {
@@ -30,7 +30,7 @@ const teamMembers: TeamMember[] = [
     role: "Designation",
     email: "user@gmail.com",
     phone: "+47 123 456 7890",
-    image: "./assets/image000000-cropped.jpg",
+    image: "/assets/image000000-cropped.jpg",
     inNeedHelp: true,
   },
   {
@@ -39,15 +39,15 @@ const teamMembers: TeamMember[] = [
     role: "Designation",
     email: "user@gmail.com",
     phone: "+47 123 456 7890",
-    image: "./assets/DSC02359.jpg",
+    image: "/assets/DSC02359.jpg",
     inNeedHelp: true,
   },
 ];
 
 export default function OurTeamSection() {
   return (
-    <section className="py-24 bg-background overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-24 bg-background overflow-hidden container-padding">
+      <div className="container mx-auto ">
         {/* =================================
             PART 1: Header & Group Photo
            ================================= */}
@@ -63,7 +63,7 @@ export default function OurTeamSection() {
 
           <div className="relative w-full h-[300px] md:h-[500px] rounded-[2.5rem] overflow-hidden shadow-xl group">
             <Image
-              src="./assets/Rectangle 48.png"
+              src="/assets/Rectangle 48.png"
               alt="The entire 24SJU Team"
               fill
               className="object-cover transition-transform duration-1000 group-hover:scale-105"
@@ -72,8 +72,8 @@ export default function OurTeamSection() {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row  gap-12 lg:gap-16  mb-24">
-          <div className="w-full flex-1 flex flex-col justify-center pt-4 animate-[fadeInUp_1s_ease-out_forwards]">
+        <div className="flex  lg:px-20 flex-col lg:flex-row justify-between gap-12 lg:gap-16  mb-10">
+          <div className="flex-1  flex flex-col justify-center pt-4 animate-[fadeInUp_1s_ease-out_forwards]">
             <h3 className="text-4xl md:text-5xl mb-6 leading-[1.1]">
               <span className="font-serif italic font-bold text-primary block mb-1">
                 Need help
@@ -88,8 +88,8 @@ export default function OurTeamSection() {
             <div className="h-1 w-20 bg-primary/20 rounded-full"></div>
           </div>
 
-          <div className="w-full flex-2">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
+          <div className="flex-1  ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 md:gap-8 ">
               {teamMembers.map((member, index) => {
                 // LOGIC 1: HIDE if inNeedHelp is false
                 if (member.inNeedHelp === false) return null;
@@ -107,11 +107,7 @@ export default function OurTeamSection() {
           </div>
         </div>
 
-        <div className="pt-10 border-t border-gray-100">
-          <h3 className="text-2xl font-bold mb-10 text-center">
-            Meet the Whole Team
-          </h3>
-
+        <div className="pt-10 ">
           {/* Flex container to match the horizontal layout in your image */}
           <div className="flex flex-wrap justify-center gap-10">
             {teamMembers.map((member, index) => {
@@ -160,7 +156,11 @@ function TeamMemberCard({
       {/* Info */}
       <div className="flex flex-col px-1">
         {/* Name - Styled to match your image (Green first name, normal last name) */}
-        <h4 className={`${isContact ? "" : "text-lg"} font-serif font-bold italic text-primary leading-tight mb-1 group-hover:text-[#3a782b] transition-colors`} >
+        <h4
+          className={`${
+            isContact ? "" : "text-lg"
+          } font-serif font-bold italic text-primary leading-tight mb-1 group-hover:text-[#3a782b] transition-colors`}
+        >
           {member.name.split(" ")[0]}
           <span className="font-sans not-italic text-foreground ml-1">
             {member.name.split(" ").slice(1).join(" ")}

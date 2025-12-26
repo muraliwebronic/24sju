@@ -26,7 +26,7 @@ const faqs = [
     id: 4,
     question: "Lorem ipsum dolor sit amet?",
     answer: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
-    image: "./assets/Store Images/Hånger 21-5/P1120964.JPG", 
+    image: "/assets/Store Images/Hånger 21-5/P1120964.JPG", 
   },
 ];
 

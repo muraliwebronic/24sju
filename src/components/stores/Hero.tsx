@@ -15,7 +15,7 @@ export default function Hero() {
           
           {/* Background Video */}
           <Image
-            src="./assets/Store Images/store images/Stora-Herrestad.jpg"
+            src="/assets/Store Images/store images/Stora-Herrestad.jpg"
             alt='store-img'
             className="absolute top-0 left-0 w-full h-full object-cover z-0 pointer-events-none"
             fill

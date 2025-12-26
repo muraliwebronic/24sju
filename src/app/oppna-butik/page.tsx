@@ -10,7 +10,7 @@ export default function page() {
     <>
     <Hero />
     <StepByStepSection />
-     <ContactFormSection />
+    <ContactFormSection />
     <FAQ />
     <Why24SjuSection />
    

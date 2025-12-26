@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function StoresMapSection() {
   return (
-    <section className="py-20 bg-background overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+    <section className="py-20 bg-background overflow-hidden container-padding">
+      <div className="container mx-auto  grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         
         {/* =======================
             LEFT COLUMN: Text Content
@@ -35,10 +35,10 @@ export default function StoresMapSection() {
            ======================= */}
         <div className="relative w-full h-[400px] md:h-[600px] rounded-[2.5rem] overflow-hidden shadow-lg animate-[fadeInUp_1s_ease-out_forwards]">
           {/* Note: You will need to export the map image from your design file 
-            and place it in public./assets/map-image.jpg
+            and place it in public/assets/map-image.jpg
           */}
           <Image
-            src="./assets/Rectangle 97.png"
+            src="/assets/Rectangle 97.png"
             alt="Map of 24SJU store locations in Sweden"
             fill
             className="object-cover hover:scale-105 transition-transform duration-1000"

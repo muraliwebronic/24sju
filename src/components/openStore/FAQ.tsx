@@ -39,8 +39,8 @@ export default function FAQ() {
   };
 
   return (
-    <section className="py-20 bg-background overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-20 bg-background overflow-hidden container-padding">
+      <div className="container mx-auto ">
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           
@@ -64,7 +64,7 @@ export default function FAQ() {
             <div className="relative w-full h-[300px] md:h-[450px] rounded-[2.5rem] overflow-hidden shadow-xl group">
               {/* Using a store interior image as requested */}
               <Image
-                src="./assets/Store Images/store images/UCKLUM.jpg" 
+                src="/assets/Store Images/store images/UCKLUM.jpg" 
                 alt="24SJU Store Interior"
                 fill
                 className="object-cover transition-transform duration-1000 group-hover:scale-105"

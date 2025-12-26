@@ -8,26 +8,26 @@ const steps = [
     id: 1,
     title: "Lorem ipsum",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: "./assets/Store Images/store images/Arentorp-1024x768.jpg", // Using a general store image
+    image: "/assets/Store Images/store images/Arentorp-1024x768.jpg", // Using a general store image
   },
   {
     id: 2,
     title: "Lorem ipsum",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "./assets/Store Images/Hånger 21-5/P1120964.JPG", // Using the deck/ramp image
+    image: "/assets/Store Images/Hånger 21-5/P1120964.JPG", // Using the deck/ramp image
   },
   {
     id: 3,
     title: "Lorem ipsum",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    image: "./assets/Store Images/store images/UCKLUM.jpg", // Using the interior fridge image
+    image: "/assets/Store Images/store images/UCKLUM.jpg", // Using the interior fridge image
   },
 ];
 
 export default function StepByStepSection() {
   return (
-    <section className="py-20 bg-background relative overflow-hidden">
-      <div className="max-w-6xl mx-auto px-6 relative z-10">
+    <section className="py-20 bg-background relative overflow-hidden container-padding ">
+      <div className="container mx-auto  relative z-10">
         
         {/* --- Header --- */}
         <div className="text-center mb-16 animate-[fadeInUp_0.8s_ease-out_forwards]">

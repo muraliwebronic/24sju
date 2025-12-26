@@ -9,39 +9,38 @@ const infoCards = [
   {
     id: 1,
     title: "Så här öppnar du butik",
-    image: "./assets/Store Images/Furulund 22-5/Furulund/P1130074.JPG",
+    image: "/assets/Store Images/Furulund 22-5/Furulund/P1130074.JPG",
     link: "#",
   },
   {
     id: 2,
     title: "Så här handlar du",
-    image: "./assets/Store Images/store images/24sjuMellosa.jpg", // Make sure this image exists
+    image: "/assets/Store Images/store images/24sjuMellosa.jpg", // Make sure this image exists
     link: "#",
   },
   {
     id: 3,
     title: "Trygghet & Säkerhet",
-    image: "./assets/Store Images/store images/UCKLUM.jpg",
+    image: "/assets/Store Images/store images/UCKLUM.jpg",
     link: "#",
   },
 ];
 
 export default function Hero() {
   return (
-    <div className="min-h-screen bg-background text-foreground font-sans selection:bg-primary selection:text-white pb-20">
+    <div className="min-h-[50vh] lg:min-h-screen bg-background text-foreground font-sans selection:bg-primary selection:text-white pb-20">
       {/* Navigation Bar */}
       <NavBar />
 
       {/* Hero Content Section */}
-      <section className="mt-5 container px-5 ">
-        <div className=" mx-auto">
+      <section className="  px-5  ">
+        <div className="  mx-auto">
           {/* Responsive Grid: 1 column on Mobile, 3 columns on Desktop */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1  w-full md:grid-cols-3 gap-6 lg:gap-2">
             {infoCards.map((card, index) => (
               <div
                 key={card.id}
-                // Mobile Height: h-[400px] | Desktop Height: h-[600px]
-                className="relative h-[400px] md:h-[600px] rounded-[2rem] overflow-hidden group cursor-pointer shadow-lg animate-[fadeInUp_0.8s_ease-out_forwards]"
+                className="relative min-h-[50vh] lg:min-h-[80vh]  rounded-[2rem] overflow-hidden group cursor-pointer shadow-lg animate-[fadeInUp_0.8s_ease-out_forwards]"
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
                 {/* Background Image */}

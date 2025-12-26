@@ -5,8 +5,8 @@ import Image from 'next/image';
 
 export default function ContactFormSection() {
   return (
-    <section className="py-20 bg-background overflow-hidden" id="contact-form">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-20 bg-background overflow-hidden container-padding" id="contact-form">
+      <div className="container mx-auto px-6">
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           
@@ -136,7 +136,7 @@ export default function ContactFormSection() {
              ========================= */}
           <div className="relative h-[400px] lg:h-full min-h-[500px] w-full rounded-[2.5rem] overflow-hidden shadow-xl group animate-[fadeInUp_1s_ease-out_forwards]">
             <Image
-              src="./assets/Store Images/Saxnäs 21-8/IMG_1161.JPG" 
+              src="/assets/Store Images/Saxnäs 21-8/IMG_1161.JPG" 
               alt="24SJU Saxnäs Store"
               fill
               className="object-cover transition-transform duration-1000 group-hover:scale-105"

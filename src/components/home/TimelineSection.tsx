@@ -7,42 +7,42 @@ const timelineEvents = [
     yearPrefix: "20",
     yearSuffix: "21",
     description: "Butik nr. 1 byggdes!",
-    image: "./assets/Rectangle 121.png",
+    image: "/assets/Rectangle 121.png",
   },
   {
     id: 2,
     yearPrefix: "20",
     yearSuffix: "24",
     description: "Butik nr. 1 byggdes!",
-    image: "./assets/Rectangle 122.png",
+    image: "/assets/Rectangle 122.png",
   },
   {
     id: 3,
     yearPrefix: "20",
     yearSuffix: "25",
     description: "Våra chefer deltog i RedBulls Tandemkamp.",
-    image: "./assets/Rectangle 123.png",
+    image: "/assets/Rectangle 123.png",
   },
   {
     id: 4,
     yearPrefix: "20",
     yearSuffix: "25",
     description: "Skördefest för våra butiker!",
-    image: "./assets/Rectangle 124.png",
+    image: "/assets/Rectangle 124.png",
   },
   {
     id: 5,
     yearPrefix: "20",
     yearSuffix: "25",
     description: "Nominerade till årets franchisekedja.",
-    image: "./assets/Rectangle 146.png",
+    image: "/assets/Rectangle 146.png",
   },
 ];
 
 export default function TimelineSection() {
   return (
-    <section className="py-10 bg-background overflow-hidden">
-      <div className=" container mx-auto px-4 sm:px-6 relative">
+    <section className="py-10 bg-background overflow-hidden container-padding ">
+      <div className=" container mx-auto  relative">
         
         <div className="text-center mb-16 md:mb-24 max-w-2xl mx-auto animate-[fadeInUp_0.8s_ease-out_forwards]">
           <h2 className="text-4xl md:text-5xl mb-6">
