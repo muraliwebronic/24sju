@@ -8,32 +8,32 @@ const stores = [
   {
     id: 1,
     location: "Stora Herrestad",
-    image: "/assets/Store Images/Stora Herrestad 22-5/P1130130.JPG",
+    image: "./assets/Store Images/Stora Herrestad 22-5/P1130130.JPG",
   },
   {
     id: 2,
     location: "Hånger",
-    image: "/assets/Store Images/Hånger 21-5/P1130009.JPG",
+    image: "./assets/Store Images/Hånger 21-5/P1130009.JPG",
   },
   {
     id: 3,
     location: "Högsby",
-    image: "/assets/Store Images/Högsby/P1130278.JPG",
+    image: "./assets/Store Images/Högsby/P1130278.JPG",
   },
   {
     id: 4,
     location: "Forsvik",
-    image: "/assets/Store Images/Forsvik (21-6)/P1130386.JPG",
+    image: "./assets/Store Images/Forsvik (21-6)/P1130386.JPG",
   },
   {
     id: 5,
     location: "Alafors",
-    image: "/assets/Store Images/Alafors 20-3/image00167.jpeg",
+    image: "./assets/Store Images/Alafors 20-3/image00167.jpeg",
   },
   {
     id: 6,
     location: "Västra Bodarna",
-    image: "/assets/Store Images/Västra Bodarna 29-8/IMG_1554.JPG",
+    image: "./assets/Store Images/Västra Bodarna 29-8/IMG_1554.JPG",
   },
   // ... add your remaining stores here
 ];
