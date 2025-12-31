@@ -8,21 +8,21 @@ const steps = [
     id: 1,
     title: "Varför det är en bra affärsidé",
     // Matches filename from image_0f8e21.png
-    image: "./assets/Varför det är en bra affärsidé.png", 
+    image: "/assets/Varför det är en bra affärsidé.png", 
     link: "#",
   },
   {
     id: 2,
     title: 'Kort "steg-för-steg" process',
     // Matches filename from image_0f8e21.png
-    image: "./assets/Kort ”steg-för-steg” process.png", 
+    image: "/assets/Kort ”steg-för-steg” process.png", 
     link: "#",
   },
   {
     id: 3,
     title: "Länk till kontaktformulär",
     // Matches filename from image_0f8e21.png
-    image: "./assets/Länk till kontaktformulär.png", 
+    image: "/assets/Länk till kontaktformulär.png", 
     link: "#",
   },
 ];

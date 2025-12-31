@@ -9,19 +9,19 @@ const infoCards = [
   {
     id: 1,
     title: "Så här öppnar du butik",
-    image: "./assets/Store Images/Furulund 22-5/Furulund/P1130074.JPG",
+    image: "/assets/Store Images/Furulund 22-5/Furulund/P1130074.JPG",
     link: "#",
   },
   {
     id: 2,
     title: "Så här handlar du",
-    image: "./assets/Store Images/store images/24sjuMellosa.jpg", // Make sure this image exists
+    image: "/assets/Store Images/store images/24sjuMellosa.jpg", // Make sure this image exists
     link: "#",
   },
   {
     id: 3,
     title: "Trygghet & Säkerhet",
-    image: "./assets/Store Images/store images/UCKLUM.jpg",
+    image: "/assets/Store Images/store images/UCKLUM.jpg",
     link: "#",
   },
 ];

@@ -5,20 +5,20 @@ const newsArticles = [
   {
     id: 1,
     date: "15 03 2025",
-    title: "Lorem ipsum dolor sit amet, consectetur",
-    image: "./assets/Store Images/Högsby/P1130274.JPG",
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    image: "/assets/Store Images/Högsby/P1130274.JPG",
   },
   {
     id: 2,
     date: "15 03 2025",
     title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    image: "./assets/Store Images/Hånger 21-5/P1120966.JPG",
+    image: "/assets/Store Images/Hånger 21-5/P1120966.JPG",
   },
   {
     id: 3,
     date: "15 03 2025",
-    title: "Lorem ipsum dolor sit amet,",
-    image: "./assets/Store Images/Hånger 21-5/P1130002.JPG",
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    image: "/assets/Store Images/Hånger 21-5/P1130002.JPG",
   },
 ];
 
@@ -46,7 +46,7 @@ export default function NewsSection() {
                 <img
                   src={article.image}
                   alt={article.title}
-                  className="object-cover transition-transform duration-700 group-hover:scale-105 z-0"
+                  className="object-cover object-fill transition-transform duration-700 group-hover:scale-105 z-0"
                 />
 
                 <div className="absolute bottom-6 left-6 z-20">

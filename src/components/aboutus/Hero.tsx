@@ -15,7 +15,7 @@ export default function Hero() {
           
           {/* Background Video */}
           <Image
-            src="./assets/Store Images/store images/SKURUP-1024x768.jpeg"
+            src="/assets/Store Images/store images/SKURUP-1024x768.jpeg"
             alt='store-img'
             className="absolute top-0 left-0 w-full h-full object-cover z-0 pointer-events-none"
             fill
