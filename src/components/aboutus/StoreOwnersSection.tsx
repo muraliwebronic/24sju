@@ -7,7 +7,7 @@ const storeOwners = [
   {
     id: 1,
     name: "Familjen Lundqvist", 
-    image: "/assets/Store Images/Stora Herrestad 22-5/P1130130.JPG",
+    image: "./assets/Store Images/Stora Herrestad 22-5/P1130130.JPG",
     testimonial: {
       title: "Familjen Lundqvist",
       text: "Vi älskar friheten det ger oss och våra kunder. Att kunna erbjuda service dygnet runt i vår lilla ort har verkligen gjort skillnad för gemenskapen."
@@ -16,7 +16,7 @@ const storeOwners = [
   {
     id: 2,
     name: "John Doe",
-    image: "/assets/Store Images/store images/Arentorp-1024x768.jpg", 
+    image: "./assets/Store Images/store images/Arentorp-1024x768.jpg", 
     testimonial: {
       title: "John Doe",
       text: "John upgraded his traditional shop into a 24/7 unmanned store. With automated systems and seamless checkout, he quickly saw steady growth."
@@ -25,7 +25,7 @@ const storeOwners = [
   {
     id: 3,
     name: "Team Högsby", 
-    image: "/assets/Store Images/Högsby/P1130278.JPG",
+    image: "./assets/Store Images/Högsby/P1130278.JPG",
     testimonial: {
       title: "Team Högsby",
       text: "Tekniken är fantastisk och gör driften så smidig. Vi kan fokusera på att hålla butiken fräsch och välfylld medan systemet sköter resten."

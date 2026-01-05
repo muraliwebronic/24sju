@@ -16,28 +16,28 @@ const MOBILE_INACTIVE_VW = 80;
 const testimonials = [
   {
     id: 1,
-    image: "/assets/test.png", 
+    image: "./assets/test.png", 
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
     signature: "Charbel",
     designation: "Franchise Owner",
   },
   {
     id: 2,
-    image: "/assets/test.png",
+    image: "./assets/test.png",
     quote: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.",
     signature: "Tomas",
     designation: "Store Manager",
   },
   {
     id: 3,
-    image: "/assets/test.png",
+    image: "./assets/test.png",
     quote: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.",
     signature: "Cassandra",
     designation: "Partner",
   },
   {
     id: 4,
-    image: "/assets/test.png",
+    image: "./assets/test.png",
     quote: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
     signature: "Sofia",
     designation: "Investor",

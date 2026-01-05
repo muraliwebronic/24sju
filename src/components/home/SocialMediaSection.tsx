@@ -5,25 +5,25 @@ import Image from 'next/image';
 const socialPosts = [
   {
     id: 1,
-    image: "/assets/Store Images/Hånger 21-5/P1120966.JPG", 
+    image: "./assets/Store Images/Hånger 21-5/P1120966.JPG", 
     overlayText: "INTE BARA STÖRST",
     alt: "Social media post 1"
   },
   {
     id: 2,
-    image: "/assets/Store Images/Hånger 21-5/P1130002.JPG", 
+    image: "./assets/Store Images/Hånger 21-5/P1130002.JPG", 
     overlayText: "VILKA ÄR 24SJU?",
     alt: "Social media post 2"
   },
   {
     id: 3,
-    image: "/assets/Store Images/Furulund 22-5/Furulund/P1130074.JPG", 
+    image: "./assets/Store Images/Furulund 22-5/Furulund/P1130074.JPG", 
     overlayText: "24SJU KATRINEHOLM",
     alt: "Social media post 3"
   },
   {
     id: 4,
-    image: "/assets/Store Images/Hånger 21-5/P1130002.JPG", 
+    image: "./assets/Store Images/Hånger 21-5/P1130002.JPG", 
     overlayText: "FOLLOW US",
     alt: "Social media post 4"
   },

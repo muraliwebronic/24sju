@@ -254,7 +254,7 @@ export default function ContactFormSection() {
              ========================= */}
           <div className="relative h-[400px] lg:h-full min-h-[500px] w-full rounded-[2.5rem] overflow-hidden shadow-xl group animate-[fadeInUp_1s_ease-out_forwards]">
             <Image
-              src="/assets/Store Images/Saxnäs 21-8/IMG_1161.JPG"
+              src="./assets/Store Images/Saxnäs 21-8/IMG_1161.JPG"
               alt="24SJU Saxnäs Store"
               fill
               className="object-cover transition-transform duration-1000 group-hover:scale-105"

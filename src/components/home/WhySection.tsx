@@ -5,22 +5,22 @@ const features = [
   {
     id: 1,
     label: "Sortiment",
-    icon: "/assets/Group 34.png", 
+    icon: "./assets/Group 34.png", 
   },
   {
     id: 2,
     label: "Inredning",
-    icon: "/assets/Path 41.png",
+    icon: "./assets/Path 41.png",
   },
   {
     id: 3,
     label: "Inköp",
-    icon: "/assets/Path 42.png",
+    icon: "./assets/Path 42.png",
   },
   {
     id: 4,
     label: "Butikssupport",
-    icon: "/assets/icon.svg (1).png",
+    icon: "./assets/icon.svg (1).png",
   },
 ];
 
@@ -79,7 +79,7 @@ export default function WhySection() {
           {/* Top Large Image */}
           <div className="relative w-full h-[300px] md:h-[350px] rounded-[2rem] overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-500 group">
             <Image
-              src="/assets/Store Images/Furulund 22-5/Furulund/P1130074.JPG" // Replace with your actual image path
+              src="./assets/Store Images/Furulund 22-5/Furulund/P1130074.JPG" // Replace with your actual image path
               alt="24SJU Store by the lake"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -92,7 +92,7 @@ export default function WhySection() {
             {/* Bottom Left */}
             <div className="relative w-full h-full rounded-[2rem] overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-500 group">
               <Image
-                src="/assets/Store Images/store images/SVINNINGE-1024x997.jpeg" // Replace with your actual image path
+                src="./assets/Store Images/store images/SVINNINGE-1024x997.jpeg" // Replace with your actual image path
                 alt="Store owners"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -102,7 +102,7 @@ export default function WhySection() {
             {/* Bottom Right */}
             <div className="relative w-full h-full rounded-[2rem] overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-500 group">
               <Image
-                src="/assets/Store Images/store images/UCKLUM.jpg" // Replace with your actual image path
+                src="./assets/Store Images/store images/UCKLUM.jpg" // Replace with your actual image path
                 alt="Store fridge interior"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
