@@ -140,7 +140,7 @@ export default function FranchiseFormSection() {
           {/* RIGHT COLUMN */}
           <div className="relative w-full h-full min-h-[500px] rounded-[2.5rem] overflow-hidden shadow-2xl">
             <Image
-              src="./assets/Store Images/Saxnäs 21-8/IMG_1161.JPG"
+              src="/assets/Store Images/Saxnäs 21-8/IMG_1161.JPG"
               alt="24SJU Store"
               fill
               className="object-cover"

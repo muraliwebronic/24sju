@@ -21,7 +21,7 @@ const teamMembers: TeamMember[] = [
     role: "Designation",
     email: "user@gmail.com",
     phone: "+47 123 456 7890",
-    image: "./assets/team1.jpeg",
+    image: "/assets/team1.jpeg",
     inNeedHelp: false,
   },
   {
@@ -30,7 +30,7 @@ const teamMembers: TeamMember[] = [
     role: "Designation",
     email: "user@gmail.com",
     phone: "+47 123 456 7890",
-    image: "./assets/image000000-cropped.jpg",
+    image: "/assets/image000000-cropped.jpg",
     inNeedHelp: true,
   },
   {
@@ -39,7 +39,7 @@ const teamMembers: TeamMember[] = [
     role: "Designation",
     email: "user@gmail.com",
     phone: "+47 123 456 7890",
-    image: "./assets/DSC02359.jpg",
+    image: "/assets/DSC02359.jpg",
     inNeedHelp: true,
   },
 ];
@@ -63,7 +63,7 @@ export default function OurTeamSection() {
 
           <div className="relative w-full h-[300px] md:h-[500px] rounded-[2.5rem] overflow-hidden shadow-xl group">
             <Image
-              src="./assets/Rectangle 48.png"
+              src="/assets/Rectangle 48.png"
               alt="The entire 24SJU Team"
               fill
               className="object-cover transition-transform duration-1000 group-hover:scale-105"

@@ -22,7 +22,7 @@ export default function StoreLocationsSection() {
           {/* 1. MAP BACKGROUND IMAGE */}
           <div className="absolute inset-0 w-full h-full">
             <Image
-              src="./assets/Rectangle 97.png" 
+              src="/assets/Rectangle 97.png" 
               alt="Map Background"
               fill
               className="object-cover"
@@ -112,7 +112,7 @@ export default function StoreLocationsSection() {
               {/* Store Image */}
               <div className="relative w-full h-[200px] rounded-2xl overflow-hidden mb-6 group/img">
                 <Image
-                  src="./assets/Store Images/Stora Herrestad 22-5/P1130126.JPG"
+                  src="/assets/Store Images/Stora Herrestad 22-5/P1130126.JPG"
                   alt="Arentorp Store"
                   fill
                   className="object-cover"

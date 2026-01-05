@@ -8,19 +8,19 @@ const steps = [
     id: 1,
     title: "Lorem ipsum",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: "./assets/Store Images/store images/Arentorp-1024x768.jpg", // Using a general store image
+    image: "/assets/Store Images/store images/Arentorp-1024x768.jpg", // Using a general store image
   },
   {
     id: 2,
     title: "Lorem ipsum",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "./assets/Store Images/Hånger 21-5/P1120964.JPG", // Using the deck/ramp image
+    image: "/assets/Store Images/Hånger 21-5/P1120964.JPG", // Using the deck/ramp image
   },
   {
     id: 3,
     title: "Lorem ipsum",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    image: "./assets/Store Images/store images/UCKLUM.jpg", // Using the interior fridge image
+    image: "/assets/Store Images/store images/UCKLUM.jpg", // Using the interior fridge image
   },
 ];
 

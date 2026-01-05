@@ -2,80 +2,67 @@
 
 /* =========================================
    1. FONT FACE DEFINITIONS
-   Matches your specific OTF and TTF files
    ========================================= */
 
-/* --- Aeonik (TTF) --- */
+/* --- Google Sans Flex (Variable Font) --- 
+   This single file covers all weights (100-900) */
 @font-face {
-  font-family: "Aeonik";
-  src: url("/fonts/Aeonik-Regular.ttf") format("truetype");
+  font-family: "Google Sans Flex";
+  src: url("/24sju/fonts/GoogleSansFlex.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+/* --- Crimson Text (Static Files) --- */
+
+/* Regular (400) */
+@font-face {
+  font-family: "Crimson Text";
+  src: url("/24sju/fonts/CrimsonText-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
+
+/* Italic (400) */
 @font-face {
-  font-family: "Aeonik";
-  src: url("/fonts/Aeonik-Bold.ttf") format("truetype");
+  font-family: "Crimson Text";
+  src: url("/24sju/fonts/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* SemiBold (600) */
+@font-face {
+  font-family: "Crimson Text";
+  src: url("/24sju/fonts/CrimsonText-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* SemiBold Italic (600) */
+@font-face {
+  font-family: "Crimson Text";
+  src: url("/24sju/fonts/CrimsonText-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Crimson Text";
+  src: url("/24sju/fonts/CrimsonText-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
-/* --- Editor's Note (OTF) --- */
-
-/* Regular (400) */
+/* Bold Italic (700) */
 @font-face {
-  font-family: "Editor's Note";
-  src: url("/fonts/EditorsNote-Regular.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Editor's Note";
-  src: url("/fonts/EditorsNote-Italic.otf") format("opentype");
-  font-weight: 400;
+  font-family: "Crimson Text";
+  src: url("/24sju/fonts/CrimsonText-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
   font-style: italic;
 }
 
-/* Medium (500) */
-@font-face {
-  font-family: "Editor's Note";
-  src: url("/fonts/EditorsNote-Medium.otf") format("opentype");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Editor's Note";
-  src: url("/fonts/EditorsNote-MediumItalic.otf") format("opentype");
-  font-weight: 500;
-  font-style: italic;
-}
-
-/* Semibold (600) -> Also mapping this to 700 (Bold) since you lack the Bold file */
-@font-face {
-  font-family: "Editor's Note";
-  src: url("/fonts/EditorsNote-Semibold.otf") format("opentype");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Editor's Note";
-  src: url("/fonts/EditorsNote-Semibold.otf") format("opentype");
-  font-weight: 700; /* Fallback for Bold */
-  font-style: normal;
-}
-
-/* Light (300) - Included since you have the file */
-@font-face {
-  font-family: "Editor's Note";
-  src: url("/fonts/EditorsNote-Light.otf") format("opentype");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Editor's Note";
-  src: url("/fonts/EditorsNote-LightItalic.otf") format("opentype");
-  font-weight: 300;
-  font-style: italic;
-}
 
 /* =========================================
    2. VARIABLES & THEME
@@ -85,20 +72,20 @@
   --foreground: #000000;
 
   --primary: #438931;
-  
+
   --cream: #F8F3EE;
   --cream-fade: #FEFBF9;
-  
+
   --beige-muted: #EEE1D5;
   --beige-deep: #ECE1D7;
-  
+
   --surface: #F2F2F7;
 }
 
 @theme {
-  /* Font Config */
-  --font-sans: "Aeonik";
-  --font-serif: "Editor's Note";
+  /* Font Config - Updated */
+  --font-sans: "Google Sans Flex", system-ui, sans-serif;
+  --font-serif: "Crimson Text", Georgia, serif;
 
   /* Color Config */
   --color-background: var(--background);
@@ -112,7 +99,7 @@
 
   /* Animations */
   --animate-fade-up: fadeInUp 0.8s ease-out forwards;
-  
+
   --keyframes-fadeInUp: {
     0% {
       opacity: 0;
@@ -132,7 +119,7 @@ html,
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans); /* Default to Aeonik */
+  font-family: var(--font-sans); /* Defaults to Google Sans Flex */
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
 }
@@ -141,11 +128,15 @@ body {
    4. UTILITIES
    ========================================= */
 @layer utilities {
-  
+  .container-padding {
+    @apply px-3 md:px-10 lg:px-25;
+  }
+
   /* Large Hero Italic */
+  /* Updated to ensure it uses the new Serif variable */
   .text-hero-main {
     font-family: var(--font-serif);
-    font-weight: 500; /* Uses Medium Italic */
+    font-weight: 600; /* Uses SemiBold Italic if available, or synthesizes */
     font-style: italic;
     font-size: 157px;
     line-height: 1;
@@ -155,16 +146,15 @@ body {
   /* Green Highlight Text */
   .text-highlight-green {
     font-family: var(--font-serif);
-    font-weight: 600; /* Uses Semibold (since you don't have Bold Italic) */
-    font-style: normal; /* Warning: You don't have Semibold Italic file, so using Normal here */
+    font-weight: 600; 
+    font-style: normal;
     font-size: 64px;
     color: var(--primary);
   }
-  
-  /* If you really need Italic for the green text, use Medium Italic (weight 500) instead */
+
   .text-highlight-green-italic {
     font-family: var(--font-serif);
-    font-weight: 500; 
+    font-weight: 600;
     font-style: italic;
     font-size: 64px;
     color: var(--primary);

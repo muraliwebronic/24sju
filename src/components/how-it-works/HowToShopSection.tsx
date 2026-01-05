@@ -61,7 +61,7 @@ export default function HowToShopSection() {
           <div className="relative h-[400px] md:h-[600px] w-full rounded-[2.5rem] overflow-hidden shadow-xl group animate-[fadeInUp_1s_ease-out_forwards]">
             <Image
               // Path cleaned up for Next.js public folder usage
-              src="./assets/Store Images/Hånger 21-5/P1120970.JPG" 
+              src="/assets/Store Images/Hånger 21-5/P1120970.JPG" 
               alt="Person shopping in 24SJU store"
               fill
               className="object-cover transition-transform duration-1000 group-hover:scale-105"

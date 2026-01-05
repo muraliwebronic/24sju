@@ -47,7 +47,7 @@ export default function SafetySecuritySection() {
           {/* Left Image (Wider - Span 3) */}
           <div className="md:col-span-3 relative h-[400px] md:h-full rounded-[2.5rem] overflow-hidden shadow-lg group animate-[fadeInUp_0.8s_ease-out_forwards] delay-100">
             <Image
-              src="./assets/Store Images/Hånger 21-5/P1120964.JPG"
+              src="/assets/Store Images/Hånger 21-5/P1120964.JPG"
               alt="Store shelves with products"
               fill
               className="object-cover transition-transform duration-1000 group-hover:scale-105"
@@ -59,7 +59,7 @@ export default function SafetySecuritySection() {
           {/* Right Image (Narrower - Span 2) */}
           <div className="md:col-span-2 relative h-[400px] md:h-full rounded-[2.5rem] overflow-hidden shadow-lg group animate-[fadeInUp_0.8s_ease-out_forwards] delay-200">
             <Image
-              src="./assets/Store Images/Högsby/P1130262.JPG"
+              src="/assets/Store Images/Högsby/P1130262.JPG"
               alt="Store refrigerators"
               fill
               className="object-cover transition-transform duration-1000 group-hover:scale-105"
