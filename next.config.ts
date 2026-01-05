@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
 
     output: "export",
-  trailingSlash: true, 
+  // trailingSlash: true, 
 };
 
 export default nextConfig;
