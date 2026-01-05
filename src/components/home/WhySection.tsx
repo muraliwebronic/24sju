@@ -45,7 +45,7 @@ export default function WhySection() {
           </div>
 
           {/* Feature Grid (2x2) */}
-          <div className="grid grid-cols-2 sm:grid-cols-2 gap-1">
+          <div className="grid grid-cols-2 sm:grid-cols-2 gap-6">
             {features.map((feature, index) => (
               <div 
                 key={feature.id}
@@ -63,7 +63,7 @@ export default function WhySection() {
                 </div>
                 
                 {/* Label */}
-                <span className="font-serif font-bold italic md:text-2xl text-foreground group-hover:text-primary transition-colors">
+                <span className="font-serif  font-bold italic md:text-xl text-foreground group-hover:text-primary transition-colors">
                   {feature.label}
                 </span>
               </div>
