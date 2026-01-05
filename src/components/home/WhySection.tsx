@@ -45,7 +45,7 @@ export default function WhySection() {
           </div>
 
           {/* Feature Grid (2x2) */}
-          <div className="grid grid-cols-2 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 gap-1">
             {features.map((feature, index) => (
               <div 
                 key={feature.id}

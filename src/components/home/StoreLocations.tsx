@@ -115,7 +115,6 @@ export default function StoreLocations() {
         ))}
       </div>  
       </div>
-     
     </section>
   );
 }

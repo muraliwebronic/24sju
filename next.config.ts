@@ -4,8 +4,9 @@ const nextConfig: NextConfig = {
   // output: "export",
   reactCompiler: true,
 
-    output: "export",
-  // trailingSlash: true, 
+  // GitHub Pages base path
+  basePath: "/24sju",
+  assetPrefix: "/24sju/",
 };
 
 export default nextConfig;
